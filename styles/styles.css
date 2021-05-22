@@ -13,13 +13,15 @@
     font-family: 'alarm_clockregular';
     src: url('alarm_clock-webfont.woff2') format('woff2'),
     url('alarm_clock-webfont.woff') format('woff');
-
     font-weight: normal;
     font-style: normal;
-
 }
 
-.button {
+lih {
+    display: inline;
+}
+
+.buttonHome {
      /* transparent */
     border: none;
     color: white;
@@ -27,7 +29,49 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+
+    background-position-x: left;
+    margin: 0px 48px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonFAQ {
+    /* transparent */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 48px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonIRC {
+    /* transparent */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 48px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.buttonLogin {
+    /* transparent */
+
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 48px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;

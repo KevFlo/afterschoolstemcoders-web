@@ -8,11 +8,16 @@ const Home = () => {
         <title>After-School STEM Coders</title>
         <link rel="icon" href="/SCSPrototype.png "/>
         <header className={"headerClass"}>
-            <img className={"imageClass"} src={"SCSPrototype.png"} alt={"org logo"} ></img>
-            <link rel="stylesheet" href="styles.css" type="text/css" charSet="utf-8"/>
-            <style type={"text/css"}></style>
+            <ul>
+                <lih><img href={""} className={"imageClass"} href={"/index.js"} src={"SCSPrototype.png"} alt={"org logo"}  ></img></lih>
+                <lih>
+                    <button className={"buttonHome button2"} type={"text/css"} >[1]Home</button>
+                    <button className={"buttonFAQ button2"} type={"text/css"}>[2]F.A.Q</button>
+                    <button className={"buttonIRC button2"} type={"text/css"}>[3]IRC</button>
+                    <button className={"buttonLogin button2"} type={"text/css"}>[4]Login</button>
+                </lih>
+            </ul>
 
-            <button className={"button button2"} type={"text/css"}>[1]Page</button>
 
 
 
