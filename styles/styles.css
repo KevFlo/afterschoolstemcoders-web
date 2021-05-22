@@ -1,3 +1,37 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.headerClass {
+    background-color: #202733;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: 'alarm_clockregular';
+    src: url('alarm_clock-webfont.woff2') format('woff2'),
+    url('alarm_clock-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.button {
+     /* transparent */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.3),0 17px 50px 0 rgba(255,255,255,0.5);
+}
